@@ -1,0 +1,6 @@
+.header-green-container {
+  background-color: #02694e;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+}

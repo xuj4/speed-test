@@ -1,0 +1,31 @@
+.header-green-container {
+  background-color: #02694e;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header-grey-status-bar {
+  background-color: #707070;
+  height: 30px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  padding-left: 140px;
+}
+
+.header-logo-img {
+  height: 50px;
+}
+
+#header-text {
+  color: #ffffff;
+  text-align: left;
+  margin-left: 20px;
+  font-size: 32px;
+  letter-spacing: var(--unnamed-character-spacing-0);
+}
