@@ -6,6 +6,11 @@ The purpose of this project is to help State of Ohio and it's educational agenci
 
 ### To check this out to your local
 
+You need to open your command line terminal and find a directory to work with. Then you can run command below to pull in the code:
+`git clone https://github.com/xuj4/speed-test.git`
+
+The code should be now pulled in speed-test directory
+
 ### Dependencies:
 
 1. install node on your machine:
