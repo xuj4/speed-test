@@ -1,31 +1,33 @@
-.header-green-container {
+.container-fluid {
   background-color: #02694e;
-  height: 100px;
+}
+
+.header-container {
+  padding: 20px 0 20px 0;
+}
+
+.header-logo-container {
   display: flex;
   flex-direction: row;
-  align-items: center;
 }
 
-.header-grey-status-bar {
-  background-color: #707070;
-  height: 30px;
-  color: #ffffff;
-  display: flex;
-  align-items: center;
+@media (max-width: 700px) {
+  .header-logo-container {
+    flex-direction: column;
+  }
 }
 
-.header {
-  padding-left: 140px;
-}
 
 .header-logo-img {
   height: 50px;
+  max-width: 205px;
+  padding-right: 20px;
 }
 
 #header-text {
   color: #ffffff;
-  text-align: left;
-  margin-left: 20px;
+  /* text-align: left;
+  /* margin-left: 20px; */
   font-size: 32px;
   letter-spacing: var(--unnamed-character-spacing-0);
 }

@@ -1,0 +1,18 @@
+.initiative-text {
+  justify-content: center;
+  background: rgba(117, 110, 101, 0.3);
+  box-shadow: 0px 6px 12px #00000029;
+  padding-top: 10px;
+  /* margin-top: 25px; */
+}
+
+.box-content {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+#text-container {
+  max-width: 650px;
+}

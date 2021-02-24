@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body {
+  font-size: 14px;
+}
+
+.header-grey-status-bar {
+  background-color: #707070;
+  height: 30px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  box-shadow: 0.75px 2px 3px #00000062;
+  border-radius: 200px;
+  opacity: 1;
+  height: 46px;
+  margin-right: 5px;
+  min-width: 200px;
+}
+
+.btn-solid {
+  background-color: #fa4515;
+  color: white;
+}
+
+.btn-frame {
+  color: #fa4515;
+  background-color: white;
+}
+
+.spacer {
+  padding: 5px;
+}

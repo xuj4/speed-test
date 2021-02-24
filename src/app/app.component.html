@@ -1,11 +1,14 @@
 <div id="app">
-  <div id="header"><app-header></app-header></div>
+  <app-header></app-header>
   <main>
     <!-- 
      You need to check the route defination and find out which route path points to which component
      For instance, if you go to localhost:4200/home, it will render homepage componet html 
      -->
-    <router-outlet></router-outlet>
+    <div class="main-content">
+      <router-outlet></router-outlet>
+    </div>
+    <div #mapContainer id="map"></div>
   </main>
-  <div id="footer"><app-footer></app-footer></div>
+  <app-footer></app-footer>
 </div>
